@@ -1,0 +1,19 @@
+Algoritma : Adımlar aşağıdadır:
+
+1-Kullanıcı aralığın alt sınırını ve üst sınırını girer .
+2-Derleyici, aralık arasında rastgele bir tamsayı üretir ve bunu gelecekteki referanslar için bir değişkende saklar.
+3-Tekrarlı tahmin için bir while döngüsü başlatılacaktır.
+4-Kullanıcı rastgele seçilen bir sayıdan daha büyük bir sayıyı tahmin ederse “ Tekrar Dene! ” çıktısını alır. Çok yüksek tahmin etmişsin
+5-Aksi takdirde kullanıcı rastgele seçilen bir sayıdan daha küçük bir sayıyı tahmin ederse “ Tekrar Dene! Çok küçük tahmin etmişsin
+6-Kullanıcı minimum sayıda tahminde bulunursa, kullanıcı " Tebrikler! " Çıktı.
+7-Aksi halde, kullanıcı minimum tahmin sayısındaki tamsayıyı tahmin etmediyse, “Bir Dahaki Sefere Daha İyi Şanslar! " çıktı.
+
+
+
+# minimum tahmin sayısı aralığı
+# Minimum tahmin sayısı = log 2 (Üst sınır – alt sınır + 1)
+
+Örneğin, eğer kullanıcı 1 ile 100 arasındaki bir sayıyı tahmin etmek için oyuna başlarsa ve 
+bu aralıkta 64 olası sayı varsa, logaritma hesaplaması log2(64) = 6 olarak gerçekleşir. 
+Bu durumda, kullanıcıya "You've only 6 chances to guess the integer!" mesajı gösterilir. 
+Kullanıcının 6 tahmin hakkı vardır ve bu süre içinde doğru sayıyı tahmin etmeye çalışmalıdır.

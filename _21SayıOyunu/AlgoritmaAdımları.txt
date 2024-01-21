@@ -1,0 +1,70 @@
+Kod boş bir liste (xyz) oluşturarak başlar.
+Daha sonra listede 4 sayısının olup olmadığını kontrol eder.
+Değilse kod, sayıya 4 ekler ve sayıları kontrol etmeye devam eder.
+Num 4'e eşit veya 4'ten büyükse kod 4'ün en yakın katını hesaplar ve bu değeri near'a kaydeder.
+Kod daha sonra “KAYBETTİNİZ!” yazdırır.
+ve oyunu bitirir.
+Sayı 4'e eşit veya 4'ten büyük değilse kod, xyz[i] – xyz[i-1]'in 1'e eşit olup olmadığını kontrol eder.
+Aksi takdirde, i değeri 1 artar ve check() işlevi False değerini döndürür, böylece last değeri 0 yerine i olarak ayarlanabilir (last = i).
+Aksi takdirde, i 1 artar ve check() işlevi True değerini döndürür, böylece last len(xyz)-1 (last = len(xyz)+1) yerine i+1 olarak ayarlanabilir.
+start() işlevi, xyz[]'e yeni bir sıfır uzunluğu atayarak oyunu başlatır.
+Bu, last'in her zaman 0 döndürmesine neden olur çünkü henüz xyz[] içinde sayı yoktur.
+Kod boş bir liste oluşturarak başlıyor, özellikle sonuncusu oyuncunun puanını takip edecek.
+Daha sonra kullanıcı CTRL+C tuşlarına basana kadar çalışacak bir while döngüsü başlatılır.
+Bu while döngüsü oyunun oynanmasından sorumlu olacaktır.
+Döngünün içinde xyz boş bir listeye ayarlanacaktır.
+xyz'de kaç sayı olduğunu belirlemek için len işlevi kullanılacaktır.
+Daha sonra i 1'e ayarlanacak ve 0'dan saymaya başlayacak.
+Daha sonra xyz'deki her sayının ardışık olup olmadığını kontrol eden kontrol işlevi çağrılır.
+Değilse, false değeri döndürülür ve i değeri 1 artırılır.
+Tüm sayılar ardışıksa True değeri döndürülür ve i değeri 1'e sıfırlanır.
+Kod, oyuncudan 1 ile 20 arasında bir sayı isteyerek başlar.
+Eğer oyuncu 1 ile 20 arasında olmayan bir sayı girerse program “Sıranız” yazacaktır.
+Kod daha sonra oyuncuya kaç sayı girmek istediğini sorar.
+Oyuncu 0'dan büyük ve 3'ten küçük bir sayı girerse program kazanma şansını 4 – input() olarak hesaplar.
+Oyuncu 3'ten büyük bir sayı girerse kazanma şansı input() olur.
+If ifadesi, sonuncunun 20'ye eşit olup olmadığını kontrol eder.
+Eğer öyleyse, lost1() çağrılır.
+Aksi takdirde, print(“Sıranız.”)
+ve oyuncudan başka bir numara isteyin.
+While True: döngüsü, birisi "Sıranız" dışında bir sayı girene veya son sayı tekrar 20'ye eşit olana kadar çalışmaya devam edecektir.
+Bu döngüde eğer last yine 20'ye eşitse, lost1() çağrılır; Aksi takdirde, print(“\nKaç sayı girmek istiyorsunuz?”)
+ve oyuncunun başka bir numara girmesine izin verin.
+Inp her iki if ifadesinde de kullanılır çünkü kullanıcı tarafından girilen her şeyi (bu durumda sayılar) saklar.
+int(input('> ')) bu dizeyi bir tamsayıya dönüştürür, böylece
+Kod, oyuncudan 0 ile 3 arasında bir sayı isteyecektir.
+Girilen sayı 0'dan büyük ancak 3'ten küçükse kod, oyuncunun girdiği sayı olan 4'ü girip girmediğini kontrol edecektir.
+Değilse kod, oyuncunun 4'e eşit bir sayı girip girmediğini kontrol edecektir.
+Eğer öyleyse, o zaman bu sayıyı comp değeri olarak kullanacaktır.
+Oyuncu 4'e eşit olmayan bir sayı girerse başka bir sayı girmesi istenecektir.
+Oyun, oyuncunun kaç sayı girdiğini takip edecek ve oyuncu üç veya daha fazla sayı girdikten sonra bunları kaybettiğini ilan edecek ve ekranda uygun bir mesaj görüntüleyecektir.
+Kod, i ve j olmak üzere iki değişkenin başlatılmasıyla başlar.
+Kod daha sonra oyuncuya geçersiz bir giriş yaptığı için oyundan diskalifiye edildiğini bildiren bir mesaj yazdırır.
+Daha sonra kod, giriş dizesi boyunca döngü yapar ve her karakteri bir değişkene atar.
+İlk döngü, her sayının ardışık bir dizi olup olmadığını kontrol eder.
+Eğer öyleyse, kod son sayıyı son değişkende saklar ve bir sonraki döngüyle devam eder.
+Aksi halde check() işlevi True değerini döndürürse oyuncu geçersiz bir giriş yapmıştır ve 1 puan kaybetmiştir.
+Bu örnekte, bu oyunun üç olası sonucu vardır: (1) Oyuncu girdi olarak 21'i girer; (2) Oyuncu giriş olarak 22'yi girer; veya (3) Oyuncu 21 veya 22 dışında herhangi bir geçerli girişi girer.
+Her üç durumda da, eğer oyuncu geçersiz bir giriş nedeniyle kaybederse, onlara ne olduğunu ve Python programlama kavramları hakkında daha fazla bilgiyi nerede bulabileceklerini gösteren bir mesaj verilecektir.
+Kod, girilen sayıların ardışık olup olmadığını kontrol edecek ve ardışık ise “Yanlış giriş.
+Oyundan diskalifiye edildiniz." Girilen sayılar ardışık değilse, “Şimdi değerleri girin” yazacak ve oynatıcıdan 1 ile 20 arasında bir sayı girmesi istenecektir.
+Oyuncu bir sayı girdiğinde, bu sayıyı xyz'ye ekleyecek ve i'yi 1 artıracaktır.
+Xyz'in son elemanı last'te saklanacak ve 21'e eşit olup olmadığı kontrol edilecek.
+Eğer öyleyse, lost1() çağrılır ve oyun biter.
+Aksi takdirde oyun devam eder.
+Kod iki değişkenin bildirilmesiyle başlar: comp ve last.
+comp, bilgisayarın kaç kez döndüğünü saklayan bir değişkendir ve last, oynatıcı tarafından girilen sayıyı saklar.
+Kod daha sonra iki işlevi bildirir: lost1() ve near.
+lost1(), oyuncunun kayıp olup olmadığını (yani, girdilerinin xyz'deki girdilerden herhangi biriyle eşleşip eşleşmediğini) belirlemek için kullanılacak bir işlevdir.
+near, oyuncunun girişi için birden fazla eşleşme olup olmadığını belirlemek için kullanılacak bir işlevdir (başka bir deyişle, 20'nin en yakın katını döndürecektir).
+Daha sonra kod, comp'in bilgisayarın kaç kez döndüğünü takip ettiği ve son olarak da oynatıcı tarafından girilenleri takip ettiği sonsuz bir döngü oluşturur.
+Bu döngünün içindeki while döngüsü, oyunun True olup olmadığını kontrol eder (ilk başta her zaman öyledir) ve ardından bu duruma göre kodun farklı bölümlerini çalıştırır.
+İlk olarak, eğer oyun False ise (bu başka birinin kazandığı anlamına gelir), o zaman lost1() onların kaybedip kaybetmediklerini belirler (girişlerinin xyz'deki herhangi biriyle eşleşip eşleşmediğini kontrol ederek).
+Kaybetmişlerse bu programdan çıkarlar.
+Kod, oyuncuların tam sayıları girme sırasını takip edecektir.
+Oyuncunun tam sayıları girmek için iki şansı olacaktır.
+Ardışık tam sayılar girerlerse otomatik olarak kazanan ilan edilirler.
+Eğer hata yaparlarsa, tamsayıları girmek için ikinci bir şansları olur.
+Eğer yine de hata yaparlarsa oyundan diskalifiye edilirler.
+Oyuncu yanlış değerler girerse sıra kendisinde kalır ve bilgisayar görevi tekrar devralır.
+Kod ayrıca oyuncuya kazandığında tebrik mesajları yazdırıyor ve oyunu oynarken bir sorun olması durumunda bir hata mesajı gösteriyor.

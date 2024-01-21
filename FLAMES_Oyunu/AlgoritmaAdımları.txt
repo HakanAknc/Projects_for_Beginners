@@ -1,0 +1,21 @@
+Kod, ilk adı, yani oyuncu 1'in adını alarak başlar.
+Tüm harfleri küçük harfe dönüştürür ve herhangi bir boşluğu boş bir dizeyle değiştirir.
+Daha sonra, Oyuncu 1'in adındaki tüm harflerin bir listesini yapar.
+Kod daha sonra ikinci adı, yani oyuncu 2'nin adını alır.
+Tüm harfleri küçük harfe dönüştürür ve herhangi bir boşluğu boş bir dizeyle değiştirir.
+Daha sonra, her iki oyuncunun adından karakterlerin bir listesi oluşturulur.
+Kod, devam bayrağının True olarak ayarlanmasıyla başlar.
+Daha sonra her listede Remove_match_char işlevini çağırır.
+Remove_match_char işlevi, her iki liste arasında ortak karakterleri arar ve bunları kaldırır.
+Ortak karakter bulunamazsa, devam et False olarak ayarlanır ve döngü sona erer.
+Bununla birlikte, eğer ortak karakterler bulunursa, ret_list[0] içinde “*” indeksini (kenarlık işareti) saklar, ret_list[1] bayrak değerini (True) saklar ve star_index bu karakterin bulunduğu yerin indeksini saklar. p1_list veya p2_list'te bulunur (hangi listenin kullanıldığına bağlı olarak).
+Yani her listedeki tüm ortak karakterleri çıkardıktan sonra, p1_list ve p2_list
+Kod öncelikle giriş olarak iki oyuncu adını alır.
+Daha sonra her isimdeki harflerin tümü küçük harfe dönüştürülür.
+Son olarak, boşluklar boş bir dizeyle değiştirilir.
+Daha sonra bu dizelerin bir listesi oluşturulur.
+Daha sonra, her liste için Remove_match_char işlevi bir kez çağrılır.
+Bu işlev, iki liste arasında ortak bir karakter arar ve onu kaldırır.
+Ortak karakter bulunamazsa dönüş değeri [list1, False] olur ve ilerleme bayrağı True olarak ayarlanır.
+Ortak bir karakter bulunursa dönüş değeri [list3, True] olur ve devam bayrağı False olarak ayarlanır.
+Son olarak, birleştirilmiş liste [list3, True] ile döndürülür.

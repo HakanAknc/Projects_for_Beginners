@@ -1,0 +1,22 @@
+Kod, oyunun kurallarını belirten bir mesajın yazdırılmasıyla başlar.
+Kodun ilk satırında "Taş, kağıda karşı->kağıt kazanır" yazıyor.
+Bunun nedeni, elinizde bir taş varsa ve elinde kağıt parçası olan birine karşı oynarsanız taş, kağıdı yenecektir.
+Kodun bir sonraki satırında "Taş makasa karşı->Taş kazanır" yazar.
+Bunun nedeni, elinizde bir taş varsa ve makası olan birine karşı oynarsanız taş, makası yenecektir.
+Kodun son satırında "kağıt vs makas->makas kazanır" yazıyor.
+Bunun nedeni, eğer elinizde bir kağıt parçası varsa ve elinde makas olan birine karşı oynarsanız, o zaman kağıt parçası makası yenecektir.
+Kod aşağıdaki çıktıyı yazdıracaktır: Taş kağıt makas oyununun Kazanma Kuralları şu şekildedir: Taş kağıt makas->kağıt kazanır Taş vs makas->Taş kazanır kağıt vs makas->makas kazanır
+Kod, kullanıcıdan bir seçim istemesiyle başlar.
+Kod daha sonra girişin 1, 2 veya 3 olup olmadığını kontrol eder.
+Bu değerlerden biri değilse kod, seçim_adı değişkenini seçim == 1 ise 'Taş', seçim == 2 ise 'kağıt' ve seçim == 3 ise 'makas' olarak ayarlar.
+Kodun bir sonraki kısmı kullanıcıdan bilgisayar sırasının gelmesini ister.
+Kod, 1, 2 ve 3 arasında seçim yapmak için rastgele bir sayı üreteci kullanır.
+Bu değer comp_choice_name'de saklanır.
+Daha sonra kod, comp_choice seçime eşit olana kadar döngü yapar.
+Her döngü yinelemesinde, comp_choice 1-3 arasından rastgele seçilecek ve comp_choice_name'de saklanacaktır.
+Comp_choice, seçime eşit olduğunda, bu, bilgisayarın sıra olarak rock'ı seçtiği anlamına gelir!
+Son olarak, herkesin ne olduğunu görebilmesi için her iki seçeneğin de çıktısını alır (kullanıcı seçimi: Rock V/s kağıdı; Bilgisayar seçimi: Rock V/s makas).
+Kod kullanıcıdan taş, kağıt ve makas arasında seçim yapmasını isteyecek.
+Kullanıcı seçimini girdikten sonra kod, bilgisayarın sırası olarak bu seçeneklerden birini rastgele seçecektir.
+Kod daha sonra seçilen seçeneği ve kullanıcının seçimini yazdırır.
+Son olarak, kullanıcıdan başka bir seçim istemek için geri döner.

@@ -1,0 +1,22 @@
+1- Kod, rastgele modülün içe aktarılmasıyla başlar.
+2- Bu modül rastgele sayılar üretmenin bir yolunu sağlar.
+3- Daha sonra kod, meyve adlarının bir listesi olan someWords'ü oluşturur.
+4- Liste ' ' dizesi kullanılarak boşluklara bölünür ve ardından her boşluğun yerine bir harf gelir.
+5- Daha sonra kod, someWords listemizden rastgele bir gizli kelime seçer.
+6- Bu kelime daha sonra oyunun girdisi olarak kullanılacaktır.
+7- Kodun bir sonraki kısmı, kullanıcının bir alfa karakteri (diğer harflerin önünde görünen bir harf) girip girmediğini kontrol eder.
+8- Değilse, yalnızca bir harf girmeleri istenir.
+9- Alfa karakteri girerlerse word'deki başka bir harfi tahmin etmek istedikleri varsayılır.
+10- Yani kodun bu kısmı, tahminin word'deki harflerden biriyle eşleşip eşleşmediğini kontrol eder.
+11- Eğer öyleyse, şans güncellenir ve bayrak 1'e ayarlanır.
+12- Aksi takdirde şans 1 azalır ve bayrak 0'da kalır.
+13- Kodun bir sonraki kısmı word'deki başka bir harfi tahmin etmeye çalışır.
+14- Tahmin geçerli değilse (yani, word'deki harflerden hiçbiriyle eşleşmiyorsa), print(), word'deki harfler için tüm boş alanları yazdırır ve
+15- Kod, rastgele modülün içe aktarılmasıyla başlar.
+16- Bu modül bize bir dizi yararlı fonksiyon sağlar; bunlardan biri seçim fonksiyonudur.
+17- Bu işlev, kelime listemizden rastgele bir gizli kelime seçmemize olanak tanır.
+18- Daha sonra program boyunca kullanılacak bazı değişkenler oluşturuyoruz.
+19- Bunlar bazı Kelimeleri, Kelime ve Tahmin Edilen harfleri içerir.
+20- letterGuessed, oyuncu tarafından tahmin edilen harfi saklarken, şans da oyuncunun o kelimeyi kaç kez doğru tahmin ettiğini saklar.
+21- doğru, o ana kadar kaç harfin tahmin edildiğini takip edecek ve bayrak, oyuncunun kelimeyi doğru tahmin edip etmediğini gösterecektir.
+22- Daha sonra kelime listemizde dolaşıp içinden rastgele bir gizli kelime seçmeye başlıyoruz.

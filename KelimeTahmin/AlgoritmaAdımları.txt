@@ -1,0 +1,20 @@
+1- Kod, kullanıcıdan adını girmesini isteyerek başlar.
+2- Kod daha sonra "İyi Şanslar!" yazan bir mesaj yazdırır.
+3- ve girilen isme isim adı verilen bir değişken ayarlar.
+4- Daha sonra kod, yerleşik word() işlevini kullanarak bir sözcük listesi oluşturur.
+5- Bu işlev bir girdi dizesi alır ve dizelerin bir listesini döndürür.
+6- Bu durumda liste beş dize içerecektir: gökkuşağı, bilgisayar, bilim, programlama ve python.
+7- Kodun bir sonraki kısmı rastgeleliğin gerçekleştiği yerdir.
+8- Kod, kelime listesinden rastgele bir dize seçecek ve onu kelime değişkeninde saklayacaktır.
+9- Daha sonra bu kelimeyi sonunda bir boşlukla birlikte yazdıracaktır.
+10- Her sözcüğü yazdırdıktan sonra kod, tahmindeki her karakteri sözcükteki karakterlerle karşılaştırarak herhangi bir kullanıcının yanlış harf girip girmediğini kontrol eder.
+11- Eşleşmiyorlarsa tahmin “Yanlış” olarak ayarlanır ve dönüşler 1 azaltılır.
+12- Tahminde hiç harf kalmamışsa, Kaybettiğini Tahmin Et yazdırılır.
+13- Aksi halde sıra 1 artırılır ve Kazandığını Tahmin Et veya Yanlış yazdırılana kadar döngü devam eder.
+14- Son olarak, eğer dönüş 0'a eşitse, o zaman kazandınız!
+15- Aksi takdirde yanlış olur
+16- Kod, kelime listesinden rastgele bir kelime seçecektir.
+17- Daha sonra kullanıcıdan o kelimenin karakterlerini girmesi istenir.
+18- Kullanıcı tüm karakterleri girdikten sonra kod, bu karakterlerin seçilen kelimede olup olmadığını kontrol eder.
+19- Değilse “Yanlış” yazdırır ve kullanıcıya kalan tur sayısını 1 azaltır.
+20- Tüm dönüşler kullanılmışsa kodda "Kaybettin" yazacaktır.

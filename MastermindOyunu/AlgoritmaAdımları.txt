@@ -1,0 +1,20 @@
+Kod, ctr değişkenini 0 olarak başlatarak başlar.
+Bu, oyuncunun sayıyı tahmin etmek için yaptığı deneme sayısını takip edecektir.
+Daha sonra kod, 1000 ile 10000 aralığında rastgele bir sayı oluşturur.
+.Randrange() işlevi bu rastgele sayıyı üretir.
+Sonraki satır bu rastgele sayıyı num'a atar.
+Daha sonra kod, num'un rastgele oluşturulan num sayısına eşit olup olmadığını test eder.
+Eşit olmaları durumunda program sonlandırılır ve “Harika!
+Sadece 1 denemede sayıyı tahmin ettiniz!
+Sen bir dehasın!”
+Aksi taktirde while döngüsü ile devam eder.
+While döngüsü n!=num olduğu sürece çalışır (bu, n'nin sayıya eşit olamayacağı anlamına gelir).
+Bu döngünün her yürütülmesinde, ctr++ artışları, kaç tahmin yapıldığına dair fikir verir.
+n'de (0-3) 4 basamak olduğundan for döngüsü de 4 kez çalışır.
+Bu döngünün her yinelemesi için range(0,4)'teki i, n[i]==sayı[i] olup olmadığını kontrol eder.
+Eğer eşitlerse sayın++; Aksi takdirde devam yürütülür ve k, doğru[] (boş bir liste) içinde saklanır; bu, tüm rakamları saklar.
+Kod, oyuncunun sayıyı kaç kez tahmin ettiğini takip edecek ctr adlı bir değişkeni başlatır.
+Kod aynı zamanda oyuncu sayıyı doğru tahmin edemediği sürece tekrarlanacak bir while döngüsü de yaratır.
+While döngüsünün her yinelemesinde kod, ctr adlı değişkeni artırır ve bu değeri count adı verilen değişkende saklar.
+Kod aynı zamanda doğru olan rakamları saklayacak doğru adında bir liste de oluşturur.
+Son olarak kod, giriş alanına ne girildiğine ilişkin bazı bilgileri yazdırır ve n==sayı ise sonlanır.

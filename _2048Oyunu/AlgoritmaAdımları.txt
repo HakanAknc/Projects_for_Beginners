@@ -1,0 +1,23 @@
+Kod, mantık modülünün içe aktarılmasıyla başlar.
+Bu modül programımızda kullanacağımız tüm fonksiyonları içermektedir.
+Daha sonra matrisi başlatacak bir fonksiyonumuz var.
+Bu, start_game() işlevi çağrılarak yapılır.
+While döngüsü, kullanıcı klavye tuşlarından herhangi birine (W, S, A, D) basana kadar çalışır.
+Her tuşa basıldığında mantıktaki fonksiyonlardan birini çağırırız.
+Bunlar move_up(), move_down() ve move_left()'dir.
+Ayrıca matrisimizin mevcut durumu hakkında bilgi almak için get_current_state() öğesini çağırmamız gerekir.
+Mantıktaki her fonksiyon iki argüman alır: mat ve flag.
+mat matris nesnesidir ve bayrak yukarı hareket için 'W' veya aşağı hareket için 'S'dir.
+Bu bölümün başlarından hatırlarsanız bunlar, oyun alanımız hakkında veri depolayan değişkenlere yapılan referanslardır.
+Her fonksiyonu çağırdıktan sonra sonuçlarını yazdırıyoruz ve durum değişkenini kullanarak oyunun bitip bitmediğini kontrol ediyoruz.
+Henüz bitmediyse add_new_2() kullanarak matrisimize yeni bir satır ekliyoruz.
+Aksi takdirde döngüden çıkmış oluruz çünkü bu kod bloğunda yapacak başka bir şey kalmamıştır!
+Son olarak,
+Kod, Logic.py dosyasını içe aktararak başlar.
+Bu dosya bu projede kullanılan tüm fonksiyonları içerir.
+Daha sonra sürücü kodunu yazdık.
+Bu kodda bir anahtarın girişini kontrol ediyoruz ve o girişe bağlı olarak Logic.py dosyasındaki fonksiyonlardan birini çağırıyoruz.
+Bu işlevlerin her birini bu makalenin ilerleyen kısımlarında ayrıntılı olarak tartışacağız.
+While döngüsü, kullanıcı girişini takip etmek ve içindeki ilgili kodu çalıştırmak için kullanılır.
+Bu döngünün içindeki kod, kullanıcı başka bir tuşa basana veya oyun bitene kadar yürütülecektir.
+If ifadesinin içinde farklı anahtarları kontrol ediyoruz ve bu girdiye bağlı olarak Logic.py'deki işlevlerden birini çağırıyoruz.
